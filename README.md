@@ -2,8 +2,10 @@
 
 Videos from [s4.codes](https://www.tiktok.com/@s4.codes) dropped into Gemini to describe them and condensed into one Claude Skill with Opus 4.6
 
-## how to use
+## How to use
 
-drop SKILL.md into `~/.claude/skills/clean-code/` and invoke with `/clean-code` command
+```
+npx skills add https://github.com/uwuclxdy/clean-code-Claude-Skill/tree/main/clean-code/SKILL.md
+```
 
-should work in other tools that have Skills support and check `~/.claude/skills/` folder too (like GitHub Copilot).
+Or just download the SKILL.md into `~/.claude/skills/clean-code/`, but you won't get updates.
